@@ -90,11 +90,6 @@
 <ul id="footermenu">
 {if $settings.rss_feed==1}<li><a class="rss" href="index.php?mode=rss">{#rss_feed_postings#}</a></li><li><a class="rss" href="index.php?mode=rss&amp;items=thread_starts">{#rss_feed_new_threads#}</a></li>{/if}<li><a class="contact" href="index.php?mode=contact" rel="nofollow">{#contact_link#}</a></li>
 </ul></div>
-{*
-Please donate if you want to remove this link:
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=1922497
-*}
-<div id="pbmlf"><a href="https://mylittleforum.net/">powered by my little forum</a></div>
 </footer>
 <ul id="assistancemenu">
  <li><a href="#top"><span class="icon"></span>{#back_to_top_link#}</a></li>
